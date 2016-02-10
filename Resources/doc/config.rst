@@ -386,6 +386,9 @@ Full Default Configuration
             hydrator_namespace:   Hydrators
             hydrator_dir:         "%kernel.cache_dir%/doctrine/odm/mongodb/Hydrators"
             auto_generate_hydrator_classes:  false
+            persistent_collection_dir: "%kernel.cache_dir%/doctrine/odm/mongodb/PersistentCollections"
+            persistent_collection_namespace: PersistentCollections
+            auto_generate_persistent_collection_classes: 0
             default_document_manager:  ~
             default_connection:   ~
             default_database:     default
