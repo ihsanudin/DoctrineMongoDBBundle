@@ -10,9 +10,15 @@
         {"name": "Kris Wallsmith", "email": "kris@symfony.com"},
         {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"}
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/malarzm/mongodb-odm"
+        }
+    ],
     "require": {
         "php": "^5.5 || ^7.0",
-        "doctrine/mongodb-odm": "^1.0",
+        "doctrine/mongodb-odm": "dev-poc-collections as 1.0.x-dev",
         "psr/log": "^1.0",
         "symfony/options-resolver": "^2.7 || ^3.0",
         "symfony/doctrine-bridge": "^2.7 || ^3.0",
