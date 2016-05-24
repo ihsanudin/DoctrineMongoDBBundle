@@ -103,8 +103,6 @@ the MongoDB ODM across your application:
             default:
                 auto_mapping: true
 
-.. note::
-
     Of course, you'll also need to make sure that the MongoDB server is running
     in the background. For more details, see the MongoDB `Quick Start`_ guide.
 
